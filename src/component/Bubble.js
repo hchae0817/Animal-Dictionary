@@ -8,7 +8,6 @@ const Bubble = ({ bubbleData }) => {
     const options = {
         chart: {
             type: "packedbubble",
-            height: '40%'
         },
         title: {
             text: "Bubble Chart"

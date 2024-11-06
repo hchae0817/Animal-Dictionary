@@ -2,9 +2,7 @@ import React from 'react';
 import Highcharts from 'highcharts';
 import PieChart from 'highcharts-react-official'
 
-
 const Pie = ({ pieData }) => {
-
     const options = {
         chart: {
             type: "pie"
@@ -33,16 +31,12 @@ const Pie = ({ pieData }) => {
         ]
     }
 
-    //console.log(chartData)
-
     return (
         <div>
-
             <PieChart
                 highcharts={Highcharts}
                 options={options}
             />
-
         </div>
     )
 
