@@ -2,7 +2,6 @@ import Carousel from 'react-elastic-carousel';
 import { Animals } from './Animals';
 
 const Carouselchild = ({ carousel, animals }) => {
-
     return (
     <Carousel ref={el => (carousel.current = el)}>
         {animals?.map((animal) => {
@@ -16,9 +15,6 @@ const Carouselchild = ({ carousel, animals }) => {
         })}
     </Carousel>
     )
-
-
 }
-
 
 export default Carouselchild;

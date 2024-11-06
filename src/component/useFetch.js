@@ -4,7 +4,7 @@ function useFetch() {
 
     const response = fetch(api);
     const data = response.json();
-    console.log('my:',data);
+    //console.log('my:',data);
     return data;
 
 }

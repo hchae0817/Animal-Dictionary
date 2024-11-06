@@ -5,7 +5,6 @@ import HC_more from "highcharts/highcharts-more";
 import { PlotBubbleOptions } from 'highcharts';
 
 const Bubble = ({ bubbleData }) => {
-
     const options = {
         chart: {
             type: "packedbubble",
@@ -27,20 +26,16 @@ const Bubble = ({ bubbleData }) => {
         ]
     }
 
-    //console.log(chartData)
     HC_more(Highcharts)
 
     return (
         <div>
-
             <HighchartsReact
                 highcharts={Highcharts}
                 options={options}
             />
-
         </div>
     )
-
 }
 
 export default Bubble;

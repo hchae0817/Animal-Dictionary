@@ -1,9 +1,7 @@
 import React from 'react';
-//import { CssBaseline } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import background from './blue.jpeg';
 import Typography from '@mui/material/Typography';
-//import PulseText from 'react-pulse-text';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -22,9 +20,6 @@ const useStyles = makeStyles((theme) => ({
     }
 })
 );
-
-
-
 
 export default function LandingPage() {
     const classes = useStyles();
@@ -45,18 +40,9 @@ export default function LandingPage() {
                         textDecoration: 'none',
                     }}
                 >
-                    {/* <PulseText text="Welcome to the animal adventure" duration={6000} iterationCount={99999}>
-                        <h2>Welcome to the animal adventure</h2>
-                    </PulseText> */}
-
-                    <h3>Welcome to the animal <br/> adventure</h3>
-
+                    <h3>Welcome to the animal <br /> adventure</h3>
                 </Typography>
-
             </div>
-
-
-
         </div>
     );
 }

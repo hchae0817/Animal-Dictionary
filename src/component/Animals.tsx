@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Animal.css"
 
 export interface IAnimal {

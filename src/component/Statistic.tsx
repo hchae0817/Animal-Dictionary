@@ -1,5 +1,4 @@
 import { IAnimal } from './Animals';
-import useFetch from './useFetch';
 import { useEffect, useState } from 'react';
 import Pie from './Pie';
 import Bubble from './Bubble';

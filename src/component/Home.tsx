@@ -1,11 +1,10 @@
 import "../index.css"
-import AdbIcon from '@mui/icons-material/Adb';
 
 function Home(): JSX.Element {
     return (
         <div className="min-h-screen flex flex-col">
             {/* <div className="bg-modle_s"></div> */}
-            <main className="container mx-auto px-6 pt-16 flex-1 text-center">
+            <main className="container flex flex-wrap flex-col justify-center mx-auto px-6 pt-8 pb-8 flex-1 text-center">
 
                 <h2 className="text-2xl md:text-4xl lg:text-6xl uppercase">
                     Welcome to the
@@ -18,8 +17,7 @@ function Home(): JSX.Element {
                 </div>
             </main>
 
-
-            <main className="container min-w-full h-24 p-20 flex-1 h-14 bg-gradient-to-r from-sky-500 to-indigo-500 bg-opacity-10">
+            <main className="container flex flex-wrap flex-col justify-center min-w-full p-20 bg-gradient-to-r from-sky-500 to-indigo-500 bg-opacity-10">
                 <h2 className="text-1xl md:text-2xl lg:text-3xl font-black">
                     Animal
                 </h2>
@@ -33,8 +31,7 @@ function Home(): JSX.Element {
                 </h2>
             </main>
 
-            <footer className="container mx-auto p-6 flex flex-col md:flex-row items-center justify-between">
-                <p>Built with ❤️ by Hana Chae</p>
+            <footer className="container justify-center mx-auto p-6 flex flex-col md:flex-row items-center">
                 <div className="flex -mx-6">
                     <a href="#" className="mx-3 hover:opacity-80 duration-150">About us</a> |
                     <a href="#" className="mx-3 hover:opacity-80 duration-150">Privacy</a> |

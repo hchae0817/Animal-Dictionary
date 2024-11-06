@@ -1,7 +1,5 @@
 
-//import Dropdown from './Dropdown';
 import { IAnimal } from './Animals';
-import useFetch from './useFetch';
 import { useEffect, useState, useRef } from 'react';
 import Carouselchild from './Carouselchild';
 import Dropdown from './Dropdown';
